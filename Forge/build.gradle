@@ -3,8 +3,8 @@ project.evaluationDependsOn(':Shared')
 dependencies {
     forge "net.minecraftforge:forge:${rootProject.minecraft_version}-${rootProject.forge_version}"
 
-    // Duped sourceSets will cause an intellij bug that removes them from one module.
-    // Switch sourceSets before compiling Forge
+//    Duped sourceSets will cause an intellij bug that removes them from one module.
+//    Switch sourceSets before compiling Forge
 //    sourceSets.main.java.srcDirs += (project(':Shared').sourceSets.main.java.srcDirs)
 //    sourceSets.main.resources.srcDirs += (project(':Shared').sourceSets.main.resources.srcDirs)
 
@@ -20,20 +20,20 @@ processResources {
 }
 
 loom {
-    forge.mixinConfigs "${modid}.mixins.json"
+    forge.mixinConfigs "${portal_accessibility}.mixins.json"
 }
 
 jar {
     manifest {
         attributes([
-                "Specification-Title": "${rootProject.modid}",
+                "Specification-Title": "${rootProject.portal_accessibility}",
                 "Specification-Vendor": "${rootProject.author}",
                 "Specification-Version": "1", // We are version 1 of ourselves
                 "Implementation-Title": project.name,
                 "Implementation-Version": "${version}",
                 "Implementation-Vendor" :"${rootProject.author}",
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
-                "MixinConfigs": "${rootProject.modid}.mixins.json"
+                "MixinConfigs": "${rootProject.portal_accessibility}.mixins.json"
         ])
     }
 }
