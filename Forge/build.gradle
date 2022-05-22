@@ -5,8 +5,8 @@ dependencies {
 
 //    Duped sourceSets will cause an intellij bug that removes them from one module.
 //    Switch sourceSets before compiling Forge
-    sourceSets.main.java.srcDirs += (project(':Shared').sourceSets.main.java.srcDirs)
-    sourceSets.main.resources.srcDirs += (project(':Shared').sourceSets.main.resources.srcDirs)
+//    sourceSets.main.java.srcDirs += (project(':Shared').sourceSets.main.java.srcDirs)
+//    sourceSets.main.resources.srcDirs += (project(':Shared').sourceSets.main.resources.srcDirs)
 
     implementation(project(":Shared"))
 }
