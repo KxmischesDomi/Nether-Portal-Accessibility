@@ -14,5 +14,4 @@ mongo-connector/dependency-reduced-pom.xml
 *.class
 *.jar
 *.iml
-Fabric/build/tmp/compileJava/previous-compilation-data.bin
-Forge/build/tmp/compileJava/previous-compilation-data.bin
+build/

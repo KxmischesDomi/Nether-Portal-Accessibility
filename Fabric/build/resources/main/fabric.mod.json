@@ -1,32 +1,29 @@
 {
     "schemaVersion": 1,
-    "id": "modid",
+    "id": "portal_accessibility",
     "version": "${version}",
-  
-    "name": "ExampleMod",
-    "description": "This is an example description! Tell everyone what your mod is about!",
+
+    "name": "Nether Portal Accessibility",
+    "description": "Lets you open inventories while in a nether portal",
     "authors": [
       "KxmischesDomi"
     ],
     "contact": {
-      "sources": "https://github.com/KxmischesDomi/ExampleMod"
+        "sources": "https://github.com/KxmischesDomi/Nether-Portal-Accessibility",
+        "issues": "https://github.com/KxmischesDomi/Nether-Portal-Accessibility/issues",
+        "homepage": "https://www.curseforge.com/minecraft/mc-mods/nether-portal-accessibility"
     },
   
-    "license": "CC0-1.0",
-    "icon": "assets/modid/icon.png",
+    "license": "Custom License",
+    "icon": "assets/portal_accessibility/icon.png",
   
     "environment": "*",
-    "entrypoints": {
-      "main": [
-          "de.kxmischesdomi.examplemod.fabric.ExampleModFabric"
-      ]
-    },
     "mixins": [
-      "examplemod.mixins.json"
+      "portal_accessibility.mixins.json"
     ],
   
     "depends": {
       "fabricloader": ">=0.11.3",
       "minecraft": "1.17.x"
     }
-  }
+}
