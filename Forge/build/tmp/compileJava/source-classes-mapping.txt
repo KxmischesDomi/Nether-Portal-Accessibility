@@ -1,4 +1,0 @@
-de/kxmischesdomi/examplemod/forge/ExampleModForge.java
- de.kxmischesdomi.examplemod.forge.ExampleModForge
-de/kxmischesdomi/examplemod/shared/ExampleModShared.java
- de.kxmischesdomi.examplemod.shared.ExampleModShared
