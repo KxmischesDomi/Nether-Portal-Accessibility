@@ -6,7 +6,7 @@ subprojects {
     apply plugin: "dev.architectury.loom"
 
     loom {
-        refmapName = "examplemod.refmap.mixins.json"
+        refmapName = "${modid}.refmap.mixins.json"
     }
 
     dependencies {
