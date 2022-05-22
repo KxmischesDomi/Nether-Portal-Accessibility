@@ -1,0 +1,4 @@
+de/kxmischesdomi/examplemod/fabric/ExampleModFabric.java
+ de.kxmischesdomi.examplemod.fabric.ExampleModFabric
+de/kxmischesdomi/examplemod/shared/ExampleModShared.java
+ de.kxmischesdomi.examplemod.shared.ExampleModShared
