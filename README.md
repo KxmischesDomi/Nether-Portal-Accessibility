@@ -6,5 +6,5 @@
 
 Makes it possible to open the inventory, chat, escape and other screens while being inside a nether portal.
 
-![](https://media.discordapp.net/attachments/895334913560178698/974369585396613120/unknown.png?width=1276&height=676)
-![](https://media.discordapp.net/attachments/895334913560178698/974369555042406450/unknown.png?width=1276&height=676)
+![](https://media.discordapp.net/attachments/864603904728629299/978749313054306364/unknown.png?width=1276&height=676)
+![](https://media.discordapp.net/attachments/864603904728629299/978749540838572042/unknown.png?width=1276&height=676)
