@@ -29,3 +29,9 @@ tasks.named('runClient') {
         false
     }
 }
+
+tasks.named('prepareRemapJar') {
+    onlyIf {
+        false
+    }
+}

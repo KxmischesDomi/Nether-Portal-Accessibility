@@ -10,5 +10,5 @@ pluginManagement {
 rootProject.name = 'ExampleMod'
 include 'Shared'
 include 'Fabric'
-include 'Forge'
+//include 'Forge' // No 1.19 release for forge yet
 
